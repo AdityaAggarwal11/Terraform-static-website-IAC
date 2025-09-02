@@ -6,7 +6,8 @@ This project demonstrates how to deploy a static website using [Terraform](https
 
 ## 📁 Project Structure
 
-- `index.html` – The static webpage to be hosted  
+- `index.html` – The static webpage to be hosted
+- 'style.css' & 'script.js'- For styling  
 - `main.tf` – Terraform configuration file defining infrastructure resources  
 - `.gitignore` – Ensures unnecessary files (e.g., binaries, `.terraform/`) are excluded from version control
 
@@ -20,7 +21,7 @@ This project demonstrates how to deploy a static website using [Terraform](https
 
 ### 2. **Initialize the Project**
 - Create a working directory
-- Add `index.html` and `main.tf` files
+- Add `index.html`, 'style.css', 'script.js' and `main.tf` files
 - Configure provider and resources in `main.tf`
 
 ### 3. **Terraform Initialization**
@@ -59,3 +60,4 @@ This project demonstrates how to deploy a static website using [Terraform](https
 ## 📬 Contact
 
 For questions or collaboration, feel free to reach out via [GitHub Issues](https://github.com/AdityaAggarwal11/Terraform-static-website-IAC/issues).
+
